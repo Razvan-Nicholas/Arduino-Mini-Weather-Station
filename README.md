@@ -2,7 +2,7 @@
 
 ![190e9f85-be47-4f23-a2a4-ac07462da537](https://github.com/Razvan-Nicholas/Arduino-Mini-Weather-Station/assets/129912215/43581265-c635-4c71-b3ff-b6512a833cba)
 
-This project demonstrates how to use a DHT22 temperature and humidity sensor with an OLED display on an Arduino. The sensor data is read and displayed on the OLED screen. This project is useful for applications requiring environmental monitoring and display, such as indoor climate control systems.
+This project demonstrates how to use a DHT22 temperature and humidity sensor with an Arduino Nano which has an integrated 0.91" OLED display. The sensor data is read and displayed on the OLED screen. This project is useful for applications requiring environmental monitoring and display, such as indoor climate control systems.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -18,9 +18,8 @@ This project demonstrates how to use a DHT22 temperature and humidity sensor wit
 This project uses an Arduino to read temperature and humidity data from a DHT22 sensor and display the data on a Qwiic OLED display. The data is refreshed continuously, showing real-time environmental conditions.
 
 ## Hardware Requirements
-- Arduino board (e.g., Uno, Mega, etc.)
+- Arduino compatible board (for this particular project I used an IdeaSpark Nano v3.1 with an integrated 0.91 OLED in order to have fewer components and keep it as simple and as compact as possible)
 - DHT22 sensor
-- SparkFun Qwiic OLED display
 - Jumper wires
 - Breadboard (optional)
 
