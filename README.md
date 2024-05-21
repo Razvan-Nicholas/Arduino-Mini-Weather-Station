@@ -1,5 +1,7 @@
 # Arduino Portable Weather Station using a DHT22 Temp/Humidity Sensor
 
+![190e9f85-be47-4f23-a2a4-ac07462da537](https://github.com/Razvan-Nicholas/Arduino-Mini-Weather-Station/assets/129912215/43581265-c635-4c71-b3ff-b6512a833cba)
+
 This project demonstrates how to use a DHT22 temperature and humidity sensor with an OLED display on an Arduino. The sensor data is read and displayed on the OLED screen. This project is useful for applications requiring environmental monitoring and display, such as indoor climate control systems.
 
 ## Table of Contents
@@ -98,6 +100,7 @@ void loop()
 
     if (isnan(h) || isnan(t) || isnan(f)) {
         Serial.println(F("Failed to read from DHT sensor!"));
+
         return;
     }
 
